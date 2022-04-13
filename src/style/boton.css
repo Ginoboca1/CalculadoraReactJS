@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    background-color: #94C5C9;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    margin: 4px;
+    border-radius: 48%;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+}
+
+.operador{
+    background-color:#059AAB;
+    border-radius: 25px;
+}
+
+.boton-contenedor:hover{
+    background-color: #82AFC2;
+}
+
+.boton-contenedor:active{
+    border-radius: 25px;
+    background-color: #a1c9da;
+}
+
+.operador:hover{
+    background-color: #058896;
+}
+
+.operador:active{
+    border-radius: 48%;
+    background-color: #6ab4bd;
+}
